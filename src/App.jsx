@@ -2,7 +2,7 @@ import './App.css'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Inicio from './pages/Inicio'
 import ComparteTuExperiencia from './pages/Comparte-tu-experiencia'
-import Login from './pages/Login'
+import Login from './pages/login'
 import Registro from './pages/Registro'
 import Header from './componentes/Header'
 function App() {

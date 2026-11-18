@@ -5,9 +5,9 @@ function Header()
 {
     return(
         <header>
-            <nav>
             <Link to='/'>Inicio</Link>
-            <Link to='/comparte-tu-experiencia'>Comparte Tu Experiencia</Link>
+            <nav>
+            
             <Link to='/login'><UserRound size={25}/></Link>
             <Link to='/registro'>Registro</Link>
             </nav>
