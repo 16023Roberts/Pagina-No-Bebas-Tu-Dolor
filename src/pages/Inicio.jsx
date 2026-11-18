@@ -1,21 +1,9 @@
-import { useState } from "react";
-import Boton from "../componentes/Boton";
-import Modal from "../componentes/Modal";
+import { useNavigate } from 'react-router-dom'
+import "./inicio.css"
 
 function Inicio()
 {
-    const [mostrar, setMostrar] = useState(false)
-
-
-    function cerrarModal()
-    {
-        setMostrar(false)
-    }
-
-    function mostrarModal()
-    {
-        setMostrar(true)
-    }
+    const navigate= useNavigate()
 
     return(
         <main>
@@ -23,15 +11,11 @@ function Inicio()
             <h4>¿Has tenido una mala experiencia, con el servicio del agua que quieras compartir?</h4>
             <p>Hay más gente que comparte tu dolor y tu preocupación: ¿Quieres hablar con alguno de ellos?</p>
             
-            <Boton funcion={mostrarModal}>Foro</Boton>
-            <Boton funcion={mostrarModal}>Comparte tu experiencia</Boton>
-            {mostrar &&(
-                <Modal>
-                    <h2>Listo</h2>
-                    <p>Tu mensaje fue enviado</p>
-                    <Boton funcion={cerrarModal}>Aceptar</Boton>
-                </Modal>
-            )}
+            <div className='botonchitos'>
+            <button onClick={()=> navigate("/")}>Foro</button>
+            <button onClick={()=> navigate("/comparte-tu-experiencia")}>Comparte Tu Experiencia</button>
+            </div>
+            
         </main>
     )
 }
