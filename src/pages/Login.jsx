@@ -38,7 +38,7 @@ function Login (){
                         required
                         />
 
-                        <button type='submit'>Iniciar Sesión</button>
+                        <button type='submit'>Iniciar Cuenta</button>
                     </form>
                 </div>
             </div>
