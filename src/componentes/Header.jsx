@@ -1,0 +1,19 @@
+import { Link } from "react-router-dom";
+import { UserRound } from "lucide-react";
+import "./header.css"
+function Header()
+{
+    return(
+        <header>
+            <nav>
+            <Link to='/'>Inicio</Link>
+            <Link to='/comparte-tu-experiencia'>Comparte Tu Experiencia</Link>
+            <Link to='/login'><UserRound size={25}/></Link>
+            <Link to='/registro'>Registro</Link>
+            </nav>
+            
+            
+        </header>
+    )
+}
+export default Header;
