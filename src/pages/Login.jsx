@@ -18,7 +18,7 @@ function Login (){
         <main className='login'>
             <div className='login-contenedor'>
                 <div className='login-pestanas'>
-                    <button className='activo' onClick={()=> navigate("/login")}>Iniciar sesion</button>
+                    <button className='activo' onClick={()=> navigate("/login")}>Iniciar Sesion</button>
                     <button onClick={()=> navigate("/registro")}>Registrarse</button>
                 </div>
                 <div className='login-formulario'>
