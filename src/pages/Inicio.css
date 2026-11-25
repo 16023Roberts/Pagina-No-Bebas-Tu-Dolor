@@ -1,0 +1,36 @@
+.princip
+{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    gap: 16px;
+}
+.texto
+{
+    margin-left: 10px;
+    font-family: "Share Tech", sans-serif;
+    font-size: 150%;
+}
+.contenedor
+{
+    display: flex; 
+    justify-content: left;
+    margin-top: 50px;
+    align-items: left;
+    gap: 16px;
+}
+button
+{
+gap: 16px;
+border-color: bisque;
+background-color: bisque;
+font-size: 18px;
+border-radius: 50px;
+}
+.agua
+{
+    width: auto;
+    height: 275px;
+    border-radius: 20px;
+}

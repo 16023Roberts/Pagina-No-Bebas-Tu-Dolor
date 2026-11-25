@@ -5,10 +5,13 @@ function Header()
 {
     return(
         <header>
-            <Link to='/'>Inicio</Link>
+            <nav>
+                <Link className="inicio" to='/'>Inicio</Link>
+            </nav>
+            
             <nav>
             
-            <Link to='/login'><UserRound size={25}/></Link>
+            <Link to='/login'><UserRound size={40}/></Link>
             <Link to='/registro'>Registro</Link>
             </nav>
             

@@ -36,7 +36,7 @@ function ComparteTuExperiencia(){
         <main>
         <h1>Comparte tu Experiencia</h1>
         <form onSubmit={enviarForm}>
-            <label>Comentario: </label>
+            <label>Comparte con confianza: </label>
             <textarea
             value={comentario}
             onChange={(evento)=> setComentario(evento.target.value)}
